@@ -18,5 +18,8 @@ function dec(n) {
   return n -= 1
 }
 function makeInt(n) {
-  return parseInt(0, 0)
+  return parseInt(0, 0) 
+}
+funtion preserveDecimal(n) {
+  return parseFloat('1.1') 
 }
